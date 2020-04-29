@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.rectangle {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 8px;
+}
+
+.idcard-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box-color {
+  height: 80;
+  display: flex;
+
+  justify-content: center;
+}
